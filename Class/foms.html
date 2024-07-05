@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--action ke andr: operations perform -->
+    <form action ="">
+        <center>
+            <input type="text"><!--any values in it -->
+            <br><br>
+            <input type ="password"><!--compulsory no with any character --><br><br>
+            <input type = "date">
+            <br><br>
+            <input type="time">
+            <br><br>
+            <input type="color">
+            <br><br>
+            <input type="number"> 
+            <br><br>
+            <hr>
+            <h1> Placeholder,labels and Button</h1>
+            <!-- labels : used for capition -->
+             <!--input ke andar jo id hota woh label for ke liye same hona chhaiye -->
+            <!-- placeholder : already viisble content -->
+             <label for ="username">
+                User Name :
+             </label>
+             <input type = "text" id ="username" placeholder="Enter your name"><br>
+
+            <label for = "password">
+                Password:
+            </label>
+            <input type ="password" id ="password" placeholder="Enter your password"><br>
+            <hr>
+            <h1> Checkbox</h1>
+            <label for ="age"></label>
+            <input type ="checkbox" id="age" checked>
+            <input type ="checkbox" id="age">
+            <!--Checked se already tick aa jayega -->
+
+            <!--radio button used for choosing one value
+            range for large data limit -->
+            <!--action methods get put SEARCH IT !!-->
+            <H1> Radio button</H1>
+            <label for ="male ">Man</label>
+            <input type ="radio" name = "gender" id = "male" value="male">
+            <label for ="female ">Woman</label>
+            <input type ="radio" name = "gender" id = "female" value="female">
+            <br>
+            <h1> Range</h1>
+            <label for ="volume">Volume</label>
+            <input type="range" id = "volume" min="0" max="100" value = "70" steps="24">
+            <!-- value = jb b first time dekho toh woh ek point pr set ho (default)
+                  steps = incrementation-->
+                  <br><hr>
+                  <h1> Dropdown</h1>
+                  <select name = "languages" id="language">
+                    <option value="C">C</option>
+                    <option value="J" SELECTED>J</option>
+                    <option value="C">C</option>
+                  </select>
+
+
+            
+
+
+
+        </center>
+    </form>
+</body>
+</html>
