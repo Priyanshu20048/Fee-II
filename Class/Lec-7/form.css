@@ -1,0 +1,50 @@
+body {
+       background-image:linear-gradient(#f9f8ef,#a2ae81,#a4c5ec);
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 10px 5px 5px #d7a6a6;
+
+}
+form{
+    background-color:rgb(223, 219, 219);
+    border-radius: 10px;
+    border: 10px 10px 10px 10px;
+    border-color: rgb(15, 15, 72);
+    margin-left: 200px;
+    margin-right: 200px;
+    
+
+}
+
+.sp {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 3, 118);
+    font-style: bold;
+    font-size: large;
+
+}
+.sp1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(20, 3, 118);
+    font-style: bold;
+    font-size: large;
+
+}
+input {
+    border-color: black;
+    border-radius: 5px ;
+    font-size: medium;
+    box-shadow: 5px 5px 5px rgb(35, 34, 34);
+}
+.check {
+    margin-top: 2px;
+    padding-left: 2px;
+    color: #0000;
+}
