@@ -1,0 +1,37 @@
+/* Decendent combinator selector 
+Descendant Selector
+The descendant selector matches all elements that are descendants of a specified element.*/
+
+ul li a{
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Child combinator selector:
+Child Selector (>)
+The child selector selects all elements that are the children of a specified element.
+ */
+
+ol > li{
+    background-color: yellow;
+}
+
+/* Adjancent Combinator selector:
+Adjacent Sibling Selector (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following". */
+
+h3+p{
+    border-top: 2px solid blue;
+}
+
+/* general sibling combinator selector: 
+General Sibling Selector (~)
+The general sibling selector selects all elements that are next siblings of a specified element.*/
+
+div~p{
+    color: green;
+    font-size: 30px;
+}
